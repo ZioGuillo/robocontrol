@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import rrb3 as rrb
-#import time
 import curses
 
 rr = rrb.RRB3(6, 3)
