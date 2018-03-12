@@ -5,7 +5,6 @@ import curses
 
 rr = rrb.RRB3(6, 3)
 
-
 # def confirm(question):
 #     answer = raw_input(question)
 
@@ -25,7 +24,6 @@ screen = curses.initscr()
 curses.noecho()
 curses.cbreak()
 screen.keypad(True)
-
 
 try:
     while True:
